@@ -1,0 +1,18 @@
+This is Django application that can be used as an extension in any project
+
+You can use following plugin to edit any model text field in any app under a django project without writing additional views or urls.
+
+To use this:
+
+1) include following  script in the html page
+      <script type="text/javascript" src="/django_extensions_project/static/js/editinplace.js"></script>
+
+      2) Change the class and id of the element you want to edit to, 
+      class = "editinplace_text" 
+      id = <id of the element>__<full modulename>__<modelname>__<fieldname>
+      Example:
+      <td class="editinplace_text" id="{{image.id}}__collegeweb.mechanicalengg.models__Lab__name">{{image.prefix}}</ td>
+
+      If it is a boolean field, use 
+       class = "editinplace_selectbox" instead.
+
