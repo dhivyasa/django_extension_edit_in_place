@@ -12,7 +12,7 @@ def edit_in_place(request):
     id of the edit in place select box is of the format
      <id>__<full modulename>__<modelname>__<fieldname>
     example: <td class="editinplace" 
-      id="{{baselinegroup.id}}__ssrweb.bvt.models__BVTBaselineGroup__{{key}}">{{value}}</td>
+      id="{{modelname.id}}__modulename__modelname__{{fielname}}">{{fieldvalue}}</td>
     if date field name cointains the words 'date' or time, the data is converted
         into datetime object and stored
     if field is a boolean select box, valid values are enable,disable  or True,False
