@@ -1,10 +1,9 @@
-This is Django application that can be used as an extension in any project
+This Django application can be used as an extension in any project
 
 You can use following plugin to edit any model text field in any app under a django project without writing additional views or urls.
 
 To use this:
-
-1) include following  script in the html page
+      1) Include following  script in the html page
       <script type="text/javascript" src="/django_extensions_project/static/js/editinplace.js"></script>
 
       2) Change the class and id of the element you want to edit to, 
